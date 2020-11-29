@@ -1,0 +1,79 @@
+
+h1{
+    color: rgb(0,0,0);
+    background-color: aqua;
+    position: relative;
+    top: 10px;
+    
+}
+#body-css{
+    background: white url("./images/eestec.png") no-repeat scroll right top;
+    position: sticky;
+}
+
+p{
+   /*outline-style: dashed;
+    outline-color: yellowgreen;
+    
+    text-decoration: underline;
+    text-align: justify;
+    text-indent: 10px;
+   
+    line-height: 5px;
+    word-spacing: 30px;
+    text-shadow: 1px 1px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+
+
+*/
+display: inline-block;
+}
+img{
+    border-radius: 10px;
+
+}
+
+.div-1{
+    background-color: red;
+    padding: 10px 4px;
+    
+}
+.div-2{
+    background-color: blue;
+    width: 200px;
+    margin: 10px auto;
+}
+/*
+#id-name{
+    nsd
+}
+
+.class-name{
+
+}
+*/
+a:link{
+    color: red;
+}
+a:hover{
+    color: green;
+    cursor: help;
+}
+a:visited{
+    color: black;
+}
+
+ul{
+    
+    list-style-type: square;
+    list-style-position: inside;
+}
+ul > li{
+    border: 1px solid black;
+}
+
+div + p{
+    color: blueviolet;
+}
